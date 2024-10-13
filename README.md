@@ -27,7 +27,7 @@ If Java is not installed, download and install it from [here](https://www.oracle
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/CodeLychee/.git
+git clone https://github.com/CodeLychee/BrickBreakerGameUsingJava.git
 ```
 
 2. Navigate to the project directory:
