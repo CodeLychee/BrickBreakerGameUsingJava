@@ -39,13 +39,13 @@ cd brickbreakergame
 3. Compile the game:
 
 ```bash
-javac BrickBreakerGame.java
+javac ProjectBrickBreakerGameUsingJava.java
 ```
 
 4. Run the game:
 
 ```bash
-java BrickBreakerGame
+java ProjectBrickBreakerGameUsingJava
 ```
 
 ## How to Play
