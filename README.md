@@ -56,13 +56,6 @@ java BrickBreakerGame
 - **Win**: Break all the bricks to win the game.
 - **Game Over**: If the ball falls below the paddle, the game will end. Press "Enter" to restart.
 
-## Code Structure
-
-- `BrickMap.java`: Handles the layout and drawing of bricks.
-- `GamePanel.java`: Main game logic, including ball movement, paddle control, and collision detection.
-- `BrickBreakerGame.java`: Initializes the game window and adds the game panel.
-
-
 ## Known Issues
 - **Ball Stuck Issue**: In rare cases, the ball may get stuck between bricks.
 - **Improvement**: Adding levels or increasing difficulty as the game progresses.
