@@ -101,7 +101,7 @@ class GamePanel extends JPanel implements KeyListener, ActionListener, MouseList
         super.paintComponent(g);
 
         if (!isPlaying && !isGameOver) {
-            drawStartScreen(g); // Draw start screen if game hasn't started
+            drawStartScreen(g); 
         } else {
             // Drawing game elements
             g.setColor(Color.BLACK);
@@ -159,9 +159,9 @@ class GamePanel extends JPanel implements KeyListener, ActionListener, MouseList
         ballYDir = 0;
         g.setColor(new Color(0XFF6464));
         g.setFont(new Font("Arial", Font.BOLD, 30));
-        g.drawString(message, 190, 300); // Game over or win message
+        g.drawString(message, 190, 300); 
         g.setFont(new Font("Arial", Font.BOLD, 20));
-        g.drawString("Press Enter to Restart.", 230, 350); // Instruction to restart
+        g.drawString("Press Enter to Restart.", 230, 350); 
     }
 
     // Resets the game when player presses Enter
@@ -210,7 +210,7 @@ class GamePanel extends JPanel implements KeyListener, ActionListener, MouseList
                             } else {
                                 ballYDir = -ballYDir;
                             }
-                            break A; // Break after collision
+                            break A; 
                         }
                     }
                 }
